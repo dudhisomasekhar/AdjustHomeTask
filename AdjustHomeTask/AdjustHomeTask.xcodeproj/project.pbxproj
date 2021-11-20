@@ -16,6 +16,17 @@
 		24B58CED2748B4390004EBD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B58CEC2748B4390004EBD5 /* main.m */; };
 		24B58CF72748B43A0004EBD5 /* AdjustHomeTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B58CF62748B43A0004EBD5 /* AdjustHomeTaskTests.m */; };
 		24B58D022748B43A0004EBD5 /* AdjustHomeTaskUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B58D012748B43A0004EBD5 /* AdjustHomeTaskUITests.m */; };
+		24B58D1E2748C4E70004EBD5 /* AppUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B58D1D2748C4E70004EBD5 /* AppUtility.m */; };
+		24B58D302748CC7A0004EBD5 /* AppUtilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B58D2F2748CC7A0004EBD5 /* AppUtilityTests.m */; };
+		24B58D342748CD0D0004EBD5 /* AppUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B58D1D2748C4E70004EBD5 /* AppUtility.m */; };
+		24B58D592748DC2B0004EBD5 /* NetworkWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B58D582748DC2B0004EBD5 /* NetworkWrapper.m */; };
+		24B58D632748E1AB0004EBD5 /* NSURLSession+SynchronousDataTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B58D622748E1AB0004EBD5 /* NSURLSession+SynchronousDataTask.m */; };
+		24B58D722748F0B10004EBD5 /* RequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B58D712748F0B10004EBD5 /* RequestModel.m */; };
+		24B58DA02748F3370004EBD5 /* ResponseData.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B58D9F2748F3370004EBD5 /* ResponseData.m */; };
+		24B58DAA27490DB70004EBD5 /* PlistDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B58DA927490DB70004EBD5 /* PlistDataHandler.m */; };
+		24B58DB227490EE70004EBD5 /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24B58DB127490EE70004EBD5 /* Data.plist */; };
+		24B58DC22749690C0004EBD5 /* PlistDataHandlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B58DC12749690C0004EBD5 /* PlistDataHandlerTests.m */; };
+		24B58DC8274969B80004EBD5 /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B58DC7274969B80004EBD5 /* NSString+Helper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +65,24 @@
 		24B58CFD2748B43A0004EBD5 /* AdjustHomeTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdjustHomeTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24B58D012748B43A0004EBD5 /* AdjustHomeTaskUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdjustHomeTaskUITests.m; sourceTree = "<group>"; };
 		24B58D032748B43A0004EBD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24B58D1C2748C4E70004EBD5 /* AppUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppUtility.h; sourceTree = "<group>"; };
+		24B58D1D2748C4E70004EBD5 /* AppUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppUtility.m; sourceTree = "<group>"; };
+		24B58D232748C6DE0004EBD5 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		24B58D2F2748CC7A0004EBD5 /* AppUtilityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppUtilityTests.m; sourceTree = "<group>"; };
+		24B58D572748DC2B0004EBD5 /* NetworkWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkWrapper.h; sourceTree = "<group>"; };
+		24B58D582748DC2B0004EBD5 /* NetworkWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkWrapper.m; sourceTree = "<group>"; };
+		24B58D612748E1AB0004EBD5 /* NSURLSession+SynchronousDataTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURLSession+SynchronousDataTask.h"; sourceTree = "<group>"; };
+		24B58D622748E1AB0004EBD5 /* NSURLSession+SynchronousDataTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURLSession+SynchronousDataTask.m"; sourceTree = "<group>"; };
+		24B58D702748F0B10004EBD5 /* RequestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestModel.h; sourceTree = "<group>"; };
+		24B58D712748F0B10004EBD5 /* RequestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestModel.m; sourceTree = "<group>"; };
+		24B58D9E2748F3370004EBD5 /* ResponseData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResponseData.h; sourceTree = "<group>"; };
+		24B58D9F2748F3370004EBD5 /* ResponseData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResponseData.m; sourceTree = "<group>"; };
+		24B58DA827490DB70004EBD5 /* PlistDataHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlistDataHandler.h; sourceTree = "<group>"; };
+		24B58DA927490DB70004EBD5 /* PlistDataHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlistDataHandler.m; sourceTree = "<group>"; };
+		24B58DB127490EE70004EBD5 /* Data.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Data.plist; sourceTree = "<group>"; };
+		24B58DC12749690C0004EBD5 /* PlistDataHandlerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlistDataHandlerTests.m; sourceTree = "<group>"; };
+		24B58DC6274969B80004EBD5 /* NSString+Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Helper.h"; sourceTree = "<group>"; };
+		24B58DC7274969B80004EBD5 /* NSString+Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,10 +139,16 @@
 				24B58CDE2748B4390004EBD5 /* SceneDelegate.m */,
 				24B58CE02748B4390004EBD5 /* ViewController.h */,
 				24B58CE12748B4390004EBD5 /* ViewController.m */,
+				24B58DA727490D9C0004EBD5 /* PlistDataHandler */,
+				24B58D602748E09B0004EBD5 /* Categories */,
+				24B58D3D2748D6D30004EBD5 /* NetworkWrapper */,
+				24B58D222748C6C00004EBD5 /* Constants */,
+				24B58D1B2748C4E70004EBD5 /* Utilities */,
 				24B58CE32748B4390004EBD5 /* Main.storyboard */,
 				24B58CE62748B4390004EBD5 /* Assets.xcassets */,
 				24B58CE82748B4390004EBD5 /* LaunchScreen.storyboard */,
 				24B58CEB2748B4390004EBD5 /* Info.plist */,
+				24B58DB127490EE70004EBD5 /* Data.plist */,
 				24B58CEC2748B4390004EBD5 /* main.m */,
 			);
 			path = AdjustHomeTask;
@@ -123,6 +158,8 @@
 			isa = PBXGroup;
 			children = (
 				24B58CF62748B43A0004EBD5 /* AdjustHomeTaskTests.m */,
+				24B58D2F2748CC7A0004EBD5 /* AppUtilityTests.m */,
+				24B58DC12749690C0004EBD5 /* PlistDataHandlerTests.m */,
 				24B58CF82748B43A0004EBD5 /* Info.plist */,
 			);
 			path = AdjustHomeTaskTests;
@@ -135,6 +172,56 @@
 				24B58D032748B43A0004EBD5 /* Info.plist */,
 			);
 			path = AdjustHomeTaskUITests;
+			sourceTree = "<group>";
+		};
+		24B58D1B2748C4E70004EBD5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				24B58D1C2748C4E70004EBD5 /* AppUtility.h */,
+				24B58D1D2748C4E70004EBD5 /* AppUtility.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		24B58D222748C6C00004EBD5 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				24B58D232748C6DE0004EBD5 /* Constants.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		24B58D3D2748D6D30004EBD5 /* NetworkWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				24B58D572748DC2B0004EBD5 /* NetworkWrapper.h */,
+				24B58D582748DC2B0004EBD5 /* NetworkWrapper.m */,
+				24B58D702748F0B10004EBD5 /* RequestModel.h */,
+				24B58D712748F0B10004EBD5 /* RequestModel.m */,
+				24B58D9E2748F3370004EBD5 /* ResponseData.h */,
+				24B58D9F2748F3370004EBD5 /* ResponseData.m */,
+			);
+			path = NetworkWrapper;
+			sourceTree = "<group>";
+		};
+		24B58D602748E09B0004EBD5 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				24B58D612748E1AB0004EBD5 /* NSURLSession+SynchronousDataTask.h */,
+				24B58D622748E1AB0004EBD5 /* NSURLSession+SynchronousDataTask.m */,
+				24B58DC6274969B80004EBD5 /* NSString+Helper.h */,
+				24B58DC7274969B80004EBD5 /* NSString+Helper.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		24B58DA727490D9C0004EBD5 /* PlistDataHandler */ = {
+			isa = PBXGroup;
+			children = (
+				24B58DA827490DB70004EBD5 /* PlistDataHandler.h */,
+				24B58DA927490DB70004EBD5 /* PlistDataHandler.m */,
+			);
+			path = PlistDataHandler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +328,7 @@
 			files = (
 				24B58CEA2748B4390004EBD5 /* LaunchScreen.storyboard in Resources */,
 				24B58CE72748B4390004EBD5 /* Assets.xcassets in Resources */,
+				24B58DB227490EE70004EBD5 /* Data.plist in Resources */,
 				24B58CE52748B4390004EBD5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,10 +354,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24B58DA02748F3370004EBD5 /* ResponseData.m in Sources */,
+				24B58DAA27490DB70004EBD5 /* PlistDataHandler.m in Sources */,
+				24B58D1E2748C4E70004EBD5 /* AppUtility.m in Sources */,
+				24B58D632748E1AB0004EBD5 /* NSURLSession+SynchronousDataTask.m in Sources */,
 				24B58CE22748B4390004EBD5 /* ViewController.m in Sources */,
+				24B58D722748F0B10004EBD5 /* RequestModel.m in Sources */,
 				24B58CDC2748B4390004EBD5 /* AppDelegate.m in Sources */,
 				24B58CED2748B4390004EBD5 /* main.m in Sources */,
+				24B58D592748DC2B0004EBD5 /* NetworkWrapper.m in Sources */,
 				24B58CDF2748B4390004EBD5 /* SceneDelegate.m in Sources */,
+				24B58DC8274969B80004EBD5 /* NSString+Helper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +372,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24B58D342748CD0D0004EBD5 /* AppUtility.m in Sources */,
+				24B58DC22749690C0004EBD5 /* PlistDataHandlerTests.m in Sources */,
+				24B58D302748CC7A0004EBD5 /* AppUtilityTests.m in Sources */,
 				24B58CF72748B43A0004EBD5 /* AdjustHomeTaskTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,14 +539,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AdjustHomeTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Somu.AdjustHomeTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -458,14 +560,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AdjustHomeTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Somu.AdjustHomeTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

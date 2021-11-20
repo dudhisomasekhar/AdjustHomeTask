@@ -6,6 +6,7 @@
 //
 
 #import "AppDelegate.h"
+#import "PlistDataHandler.h"
 
 @interface AppDelegate ()
 
@@ -16,9 +17,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [PlistDataHandler createPlistFile];
     return YES;
 }
-
 
 #pragma mark - UISceneSession lifecycle
 
